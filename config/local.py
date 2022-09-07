@@ -2,8 +2,7 @@ from .base import *
 
 DEBUG = True
 
-# '10.0.2.15', 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 DATABASES = {
     'default': {
